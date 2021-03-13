@@ -113,13 +113,14 @@ button {
   color: #fff;
   background-color: #4ac0d5;
   font-size: 20px;
-  height: 65px;
-  width: 65px;
+  height: 70px;
+  width: 70px;
   padding: 20px 1px 0 1px;
   margin-right: 2px;
   border-radius: 5px;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
+  transition: all .1s ease-out;
 }
 
 
@@ -138,7 +139,7 @@ button {
 }
 
 .wrong {
-  background: #f7a964;
+  background: white;
   color: #FFFFFF;
 }
 
